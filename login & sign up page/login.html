@@ -1,0 +1,87 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<title>login form</title>
+		<style>
+			body{
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 120px 500px;
+				background:   linear-gradient(to right, #ea9738, #e8a96a);
+			}
+            #logo{
+                font-size: 40px;
+                margin-top: 10px;
+                font-family: Comic Sans MS;
+                list-style-type: none;
+                align: center;
+            }
+            h1{
+                text-shadow: 2px 2px #696767;
+
+            }
+			.login{
+				border-radius: 10px;
+				box-shadow: 0 15px 30px grey;
+				text-align: center;
+				background-color: transparent;
+			}
+			input[type=text], input[type=password] {
+				width: 80%;
+				padding: 12px 10px;
+				margin: 4px 0;
+				border-radius: 20px;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				background-color: transparent;
+				border-color: black;
+			}
+			button {
+				
+				color: black;
+				padding: 15px;
+				margin: 8px 0;
+				border: 1px solid white;
+				box-sizing: border-box;
+				border-radius: 25px; 
+				cursor: pointer;
+				width: 80%;
+				background-color: transparent;
+			}
+			button:hover {
+				opacity: 0.8;
+			}
+			a{
+				color: black;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="login"><br><br>
+            <ul>
+                
+            </ul>           
+		  <h1 style="text-align:center">Login</h1>
+			<form>
+			<br>
+				<b>Username</b><br>
+				<input type="text" placeholder="Enter Username"></input><br><br>
+				<b>Password</b><br>
+				<input type="password" placeholder="Enter Password"></input><br><br>
+				<label>
+				<input type="checkbox" checked="checked" name="remember"> Remember me
+				</label><br><br>
+				<button type="submit">Log In</button><br>
+				
+				<button type="button"><a href="sign-up.html">Sign Up</a></button><br><br>
+				
+				<div class="container" >
+					
+					<span><a href="#">Forgot password?</a></span>
+				</div>
+						<br><br>
+			</form>
+		</div>
+	</body>
+</html>

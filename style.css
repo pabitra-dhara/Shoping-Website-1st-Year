@@ -1,0 +1,294 @@
+ *{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+ }
+ a{
+    text-decoration: none;  
+ }
+ /* <!-- header section --> */
+ 
+ header{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #131921;
+     width: 100%;
+     height: 56px;
+     position: sticky;
+     top: 0px;
+     z-index: 1;
+ }
+ .header-left{
+     width: 20%;
+     text-align: right;
+     margin-top: 10px;
+     margin-right: 7px;
+     cursor: pointer;
+ }
+ .header-left a{
+     color: rgb(249, 125, 42);
+     font-size: 30px;
+     text-decoration: none;
+     font-weight: bold;
+     font-style: italic;
+     letter-spacing: 1.5px;
+     
+ }
+ .header-center{
+     width: 40%;
+     text-align: left;
+     line-height: 50px;
+     cursor: pointer;
+     padding-left: 10px;
+     position: relative;
+ }
+ .header-center-input{
+     height: 36px;
+     width: 100%;
+     border: none;
+     text-align: left;
+     padding-left: 20px;
+     cursor: pointer;
+     margin-top: 10px;
+     border-radius: 2px;
+ }
+ .fa-search{
+     position: absolute;
+     top: 35%;
+     left: 94%;
+     font-size: 18px;
+     color: rgb(6, 2, 2);
+ }
+ .header-right{
+     width: 40%;
+     font-size: 15px;
+     display: flex;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    line-height: 50px;
+ }
+ .header-right a{
+     text-decoration: none;
+     color: white;
+     margin: 0px 25px;
+ }
+ .header-right .active{
+     background-color: white;
+     color: rgb(6, 5, 5);
+     padding: 5px 30px;
+     height: 35px;
+     width: 130px;
+     line-height: 23px;
+     margin-top: 10px;
+     border-radius: 2px;
+     text-align: center;
+ }
+ .fa-shopping-cart{
+     padding-right: 10px;
+ }
+ .fa-sort-down{
+     padding-left: 5px;
+
+ }
+
+ /* <!-- category-section --> */
+
+ .category-col a{
+    color: white;
+}
+ .category-row{
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+     height: 30px;
+     background-color: #232F3E;
+ }
+ .category-col{
+     margin-top: 8px;
+     font-size: 18px;
+     color: white;
+ }
+ .category-col h5:hover{
+    color: rgb(249, 125, 42);
+ }
+/* <!-- banner section --> */
+.banner{
+ width: 100%;
+ height: 280px;
+ overflow: hidden;
+ 
+}
+/*slide show coding start*/
+.slider{
+    width: 4098px;
+    height: 280px;
+    float: left;
+    display: flex;
+    position: relative;
+    -webkit-animation: pabitra 15s infinite;
+    -moz-animation: pabitra 15s infinite;
+    animation: pabitra 15s infinite;
+}
+ 
+.slider img{
+    width: 100%;
+} 
+@-webkit-keyframes pabitra{
+    0%{top: 0;left: 0;}
+    26.66%{top: 0;left: 0;}
+    33.33%{top: 0;left: -1800px;}
+    60%{top: 0;left: -1800px;}
+    66.66%{top: 0;left: -3500px;}
+    90%{top: 0;left: -3500px;}
+    100%{top: 0;left: -5000;}
+}
+
+ /*slide show coding end*/
+
+/*mobile section coding start */
+
+.card{
+    box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+ .common-heading{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 5px 20px;
+     margin-top: 20px;
+     box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+ }
+ .common-heading-left h1{
+     font-size: 20px;
+     font-weight: 400;
+     padding:auto;
+ }
+ .common-heading-left h2{
+     font-size: 15px;
+     padding: 5px 0px;
+     color: rgb(145,141,138) ;
+     font-weight: 200;
+ }
+ .common-heading-right button{
+     width: 90px;
+     height: 40px;
+     font-size: 18px;
+     background-color: rgb(249, 125, 42);
+     border: none;
+     color: white;
+     border-radius: 2px;
+ }
+ .common-row{
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+     max-height: 366px;
+     margin: 10px 0px;
+ }
+ .common-col{
+     text-align: center;
+     line-height: 22px;
+ }
+ .common-col img{
+     width: 69px;
+     height: 150px;
+     transition: 300ms;
+ }
+ .common-col img:hover{
+     transform: scale(0.9);
+ }
+ .common-col h3,h4,h6{
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     cursor: pointer;
+ }
+ .common-col h3{
+     margin-top: 10px;
+     font-size: 16px;
+ }
+ .common-col h4{
+     color: green;
+     font-size: 14px;
+     font-weight: 300;
+ }
+ .common-col h6{
+    color: rgb(161,161,161);
+    font-size: 12px;
+    font-weight: 100;
+ }
+ .common-col h3:hover{
+     color: rgb(249, 125, 42);
+ }
+ .common-col h4:hover{
+    color: rgb(249, 125, 42);
+}
+.common-col h6:hover{
+    color: rgb(249, 125, 42);
+}
+/*mobile section coding end*/
+ 
+ /*headphones and speaker section coding start*/
+.col-headphones img{
+    width: 130px;
+    height: 150px;
+}
+/* <!-- mens clothing --> */
+.col-men img{
+    width: 150px;
+    height: 125px;
+}
+/* <!-- Furniture Bestsellers section --> */
+
+
+.col-furniture img{
+  width: 150px;
+  height: 145px;
+}
+/* <!-- trending offers section --> */
+.col-tranding img{
+    width: 120px;
+    height: 150px;
+}
+
+/*footer coding start*/
+footer{
+    background-color: #172337;
+}
+.footer-row{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    padding: 30px 60px;
+}
+.foot{
+    float: left;
+    width: 215px;
+    height: 220px;
+    border: 1px solid #878787;
+    color: white;
+    margin-left: 105px;
+}
+.det{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #878787;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.op{
+    font-family:  Roboto,Arial,sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 19px;
+    text-decoration: none;
+}
+#a{
+    color: white;
+}
+/*footer coding end*/

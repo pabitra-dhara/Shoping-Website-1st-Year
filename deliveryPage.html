@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="deliveryPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="searching.js"></script>
+    <script src="deliver.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Delivery Addres</title>
+</head>
+<body>
+    <header>
+    <div class="header-left">
+        <a href="#">Quick Shop</a>
+     </div>
+    </header>
+    <div class="addres">
+        <form class="form-style-9">
+            <ul>
+            <li>
+                <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
+                <input type="email" name="field2" class="field-style field-split align-right" placeholder="10-digit mobile number" />
+            
+            </li>
+            <li>
+                <input type="text" name="field3" class="field-style field-split align-left" placeholder="Pincode" />
+                <input type="url" name="field4" class="field-style field-split align-right" placeholder="Locality" />
+            </li>
+            <li>
+            <input type="text" name="field3" class="field-style field-full align-none" placeholder="Address(Area and Street)" />
+            </li>
+            <li>
+                <input type="text" name="field3" class="field-style field-split align-left space" placeholder="City/Distric/Town" />
+                <select class="field-style fild-split align-left" name="field4">
+                <option value="fishkeeping">Select State</option>
+                <option value="boxing">Andaman & Nicobar Islands</option>
+                <option value="debate">Andhra Pradesh</option>
+                <option value="gaming">Assam</option>
+                <option value="snooker">Bihar</option>
+                <option value="other_indoor">Chhattisgarh</option>
+                <option value="football">Goa</option>
+                <option value="swimming">Gujarat</option>
+                <option value="fishing">Haryana</option>
+                <option value="climbing">Himachal Pradesh</option>
+                <option value="cycling">Jharkhand</option>
+                <option value="other_outdoor">Karnataka</option>
+                <option value="boxing">Kerala</option>
+                <option value="debate">Madhya Pradesh</option>
+                <option value="gaming">Maharashta</option>
+                <option value="snooker">Manipur</option>
+                <option value="other_indoor">Meghalaya</option>
+                <option value="football">Manipur</option>
+                <option value="swimming">Meghalaya</option>
+                <option value="fishing">Mizoram</option>
+                <option value="climbing">Nagaland</option>
+                <option value="cycling">Odisha</option>
+                <option value="other_outdoor">Punjab</option> 
+                <option value="boxing">Rajasthan</option>
+                <option value="debate">Sikkim</option>
+                <option value="gaming">West Bengal</option>
+                <option value="snooker">Tamil Nadu</option>
+                <option value="other_indoor">Telangana</option>
+                <option value="football">Tripura</option>
+                <option value="swimming">Uttar Pradesh</option>
+                <option value="fishing">Uttarakhand</option>                               
+                </select>        
+            </li>
+            <li>
+                <input type="text" name="field3" class="field-style field-split align-left" placeholder="Landmark(Optional)" />
+                <input type="url" name="field4" class="field-style field-split align-right" placeholder="Alternate Phone(Optional)" />
+            </li>            
+            <li>
+            <input type="submit" id="succ" value="DELIVER HERE" onclick="dhara()" />
+            </li>
+            </ul>
+            </form>
+    </div>
+    <div class="product">
+        <h4 class="pricehead">PRICE DETAILS</h4>
+        <br><br><br>
+        <hr>
+        <p class="onepro">Price(1 item) &nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;&nbsp;&nbsp;₹40,990</p>
+        <p class="onepro">Delivery Charges &nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;&nbsp;&nbsp; <font color="green">FREE</font></p>
+        <br>
+        <hr>
+        <br><br>
+        <!--total price coding start-->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Item Quantity:<input type="number" id="rat">
+        <button class="pay" onclick="pabitra()">Total Pay</button>
+        <br>
+        <h4 class="pricehead">Total Payable:<p id="print"></p></h4>
+        <!--total price coding end-->
+    </div>
+</body>
+</html>

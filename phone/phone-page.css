@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+   text-decoration: none;  
+}
+/* <!-- header section --> */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131921;
+    width: 100%;
+    height: 56px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.header-left{
+    width: 20%;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.header-left a{
+    color: rgb(249, 125, 42);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    
+}
+.header-center{
+    width: 40%;
+    text-align: left;
+    line-height: 50px;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+.header-center-input{
+    height: 36px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.fa-search{
+    position: absolute;
+    top: 35%;
+    left: 94%;
+    font-size: 18px;
+    color: rgb(6, 2, 2);
+}
+.header-right{
+    width: 40%;
+    font-size: 15px;
+    display: flex;
+   justify-content: flex-start;
+   text-transform: capitalize;
+   line-height: 50px;
+}
+.header-right a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 25px;
+}
+.header-right .active{
+    background-color: white;
+    color: rgb(6, 5, 5);
+    padding: 5px 30px;
+    height: 35px;
+    width: 130px;
+    line-height: 23px;
+    margin-top: 10px;
+    border-radius: 2px;
+    text-align: center;
+}
+.fa-shopping-cart{
+    padding-right: 10px;
+}
+.fa-sort-down{
+    padding-left: 5px;
+
+}
+
+/* <!-- category-section --> */
+
+
+.category-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    background-color: #232F3E;
+}
+.category-col{
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+}
+.category-col h5:hover{
+   color: rgb(249, 125, 42);
+}
+.category-row a{
+color:white;
+}
+
+/*phone brand coding start*/   
+}
+.compani{
+    float: left;
+    width: 96%;
+    height: 165px;
+    border: 1px solid rgb(161,161,161);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    border-radius: 16px;
+}
+.compani img{
+    float: left;
+    width: 194px;
+    margin-left: 20px;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    transition: 300ms;
+}
+.img:hover{
+    transform: scale(0.9);
+}
+/*phone brand coding end*/
+/*budget phone coding start*/
+    .budget{
+        float: left;
+        width: 96%;
+        height: 90px;
+        margin-top: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
+        background: radial-gradient(circle, rgb(245, 245, 246) 0%, rgb(240, 222, 244) 1%, rgb(187, 218, 224) 100%);
+    }
+    .hed{
+        margin-left: 42%;
+        font-size: 37px;
+        padding-top: 20px;
+    }
+    .budgetphone{
+        float: left;
+        width: 96%;
+        height: 185px;
+        border: 1px solid rgb(161,161,161);
+        border-radius: 16px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+    }
+    .budgetimg{
+        width: 19%;
+        height: 180px;
+        margin-left: 10px;       
+        transition: 300ms;
+    }
+    .budgetimg:hover{
+        transform: scale(0.9);
+    }
+    a .lanch1{
+        width: 96%;
+        height: 240px;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5px;
+        transition: 300ms;
+    }
+    a .lanch1:hover{
+        transform: scale(0.9);
+    }
+/*budget phone coding end*/
+/*footer coding start*/
+footer{
+   
+}
+.footer-row{
+    width: 100%;
+    height: 263px;
+    display: flex;
+    padding: 30px 60px;
+    background-color: #172337;
+}
+.foot{
+    float: left;
+    width: 215px;
+    height: 220px;
+    border: 1px solid #878787;
+    color: white;
+    margin-left: 105px;
+}
+.det{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #878787;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.op{
+    font-family:  Roboto,Arial,sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 19px;
+    text-decoration: none;
+}
+#a{
+    color: white;
+}
+/*footer coding end*/

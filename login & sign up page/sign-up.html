@@ -1,0 +1,92 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>sign up form</title>
+		<style>
+			body{
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 120px 500px;
+				background:   linear-gradient(to right, #ea9738, #e8a96a);
+			}
+            #logo{
+                font-size: 40px;
+                margin-top: 10px;
+                font-family: Comic Sans MS;
+                list-style-type: none;
+                align: center;
+				color: rgb(249, 125, 42);
+            }
+			#logo a{
+				text-decoration: none;
+			}
+			.sign{
+				border-radius: 10px;
+				box-shadow: 0 7px 15px grey;
+				text-align: center;
+				background-color: transparent;
+			}
+            h1{
+                text-shadow: 2px 2px #696767;
+            }
+			input[type=text],input[type=email],input[type=number], input[type=password] {
+				width: 80%;
+				padding: 10px 10px;
+				margin: 4px 0;
+				border-radius: 20px;
+				display: inline-block;
+				border: 1px solid black;
+				box-sizing: border-box;
+				background-color: transparent;
+			}
+			button {
+				
+				color: black;
+				padding: 15px;
+				margin: 8px 0;
+				border: 2px solid black;
+				box-sizing: border-box;
+				border-radius: 25px; 
+				cursor: pointer;
+				width: 80%;
+				background-color: transparent;
+			}
+			button:hover {
+				opacity: 0.8;
+			}
+			a{
+				color: black;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sign"><br><br>
+            <ul>
+            </ul> 
+		  <h1 style="text-align:center">Sign Up</h1>
+			<form>
+			<br>
+				<b>Name</b><br>
+				<input type="text" placeholder="Enter Name"></input><br><br>
+				<b>Email Id</b><br>
+				<input type="email" placeholder="Enter email id"></input><br><br>
+				<b>Mobile Number</b><br>
+				<input type="number" placeholder="00000 00000"></input><br><br>
+				<b>Password</b><br>
+				<input type="password" placeholder="Enter Password"></input><br><br>
+				<b>Confarm Password</b><br>
+				<input type="password" placeholder="Enter Password again"></input><br><br>
+				<label>
+				<input type="checkbox" checked="checked" name="remember"> Remember me
+				</label><br><br>
+				<button type="submit">Register</button><br>
+				
+				<button type="button"><a href="login.html">Already have an account</a></button><br><br>
+				
+				
+						<br><br>
+			</form>
+		</div>
+	</body>
+</html>

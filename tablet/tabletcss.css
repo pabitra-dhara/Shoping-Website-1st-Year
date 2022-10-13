@@ -1,0 +1,337 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* <!-- header section --> */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131921;
+    width: 100%;
+    height: 56px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.header-left{
+    width: 20%;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.header-left a{
+    color: rgb(249, 125, 42);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    
+}
+.header-center{
+    width: 40%;
+    text-align: left;
+    line-height: 50px;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+.header-center-input{
+    height: 36px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.fa-search{
+    position: absolute;
+    top: 35%;
+    left: 94%;
+    font-size: 18px;
+    color: rgb(6, 2, 2);
+}
+.header-right{
+    width: 40%;
+    font-size: 15px;
+    display: flex;
+   justify-content: flex-start;
+   text-transform: capitalize;
+   line-height: 50px;
+}
+.header-right a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 25px;
+}
+.header-right .active{
+    background-color: white;
+    color: rgb(6, 5, 5);
+    padding: 5px 30px;
+    height: 35px;
+    width: 130px;
+    line-height: 23px;
+    margin-top: 10px;
+    border-radius: 2px;
+    text-align: center;
+}
+.fa-shopping-cart{
+    padding-right: 10px;
+}
+.fa-sort-down{
+    padding-left: 5px;
+
+}
+
+/* <!-- category-section --> */
+
+
+.category-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    background-color: #232F3E;
+}
+.category-col{
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+}
+.category-col h5:hover{
+   color: rgb(249, 125, 42);
+}
+.category-row a{
+color:white;
+}
+
+
+
+.result-search{
+    width: 100%;
+    height: 38px;
+    border: 1px solid white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+    margin-left: 10px;
+}
+p{
+    margin-top: 10px;
+}
+b{
+    color: rgb(249, 125, 42);
+}
+/*tablet catagory coding start*/
+.tablet{
+    float: left;
+    width: 96%;
+    height: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.tablet2{
+    float: left;
+    width: 25%;
+    height: 100px;
+    border: 1px solid rgb(216, 209, 209);
+}
+.back1{
+    background-color: #F3FCD2;
+    transition: 300ms;
+}
+.back2{
+    background-color: #DEF3FE;
+    transition: 300ms;
+}
+.back3{
+    background-color: #FEEAE8;
+    transition: 300ms;
+}
+.back4{
+    background-color: #EAE6FE;
+    transition: 300ms;
+}
+.back1:hover{
+    transform: scale(0.9);
+}
+.back2:hover{
+    transform: scale(0.9);
+}
+.back3:hover{
+    transform: scale(0.9);
+}
+.back4:hover{
+    transform: scale(0.9);
+}
+.tabimg{
+    float: left;
+    width: 35%;
+    height: 90px;
+    margin-top: 3.5px;
+    margin-left: 5px;
+}
+.h2{
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    margin-top: 33px;
+    margin-left: 43%;
+}
+.budget{
+    float: left;
+    width: 96%;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: radial-gradient(circle, rgb(245, 245, 246) 0%, rgb(240, 222, 244) 1%, rgb(187, 218, 224) 100%);
+}
+.hed{
+    margin-left: 38%;
+    font-size: 37px;
+    padding-top: 20px;
+}
+.tablogo{
+    float: left;
+    width: 96%;
+    height: 140px;
+    border: 1px solid rgb(216, 209, 209);
+    border-radius: 6px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 8px;
+}
+.logobox{
+    float: left;
+    width: 16.6666%;
+    height: 140px;
+}
+.logobox img{
+    float: left;
+    height: 135px;
+    margin-top: 1.8px;
+    margin-left: 20px;
+    transition: 300ms;
+}
+.logobox img:hover{
+    transform: scale(0.9);
+}
+
+.screen{
+    float: left;
+    width: 96%;
+    height: 210px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 8px;
+}
+.screentab{
+    float: left;
+    width: 18%;
+    height: 180px;
+    border: 20px solid black;
+    border-radius: 12px;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+.screentab h1{
+    margin-left: 15px;
+}
+.tabs{
+    float: left;
+    color: black;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+.adove{
+    padding-left: 33px;
+}
+.tabss{
+    float: left;
+    color: black;
+    padding-left: 49px;
+}
+/*tablet catagory coding end*/
+/*budget phone box coding start*/
+    .bugmain{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .bugbox{
+        float: left;
+        width: 25%;
+        height: 126px;
+        border: 1px solid rgb(216, 209, 209);
+        border-radius: 6px;
+        margin-top: 15px;
+        transition: 300ms;
+    }
+    .bugbox:hover{
+        transform: scale(0.9);
+    }
+    .kbox{
+        float: left;
+        width: 160px;
+        height: 90px;
+        border: 1px solid #0F1E50;
+        border-radius: 6px;
+        background-color: #0F1E50;
+        margin-top: 18px;
+        margin-left: 100px;
+    }
+    .kbox h3{
+        color: white;
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+    .spa{
+        padding-left: 24px;
+    }
+/*budget phone box coding end*/
+/*footer coding start*/
+footer{
+    background-color: #172337;
+}
+.footer-row{
+    margin-top: 950px;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    padding: 30px 60px;
+}
+.foot{
+    float: left;
+    width: 215px;
+    height: 220px;
+    border: 1px solid #878787;
+    color: white;
+    margin-left: 105px;
+}
+.det{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #878787;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.op{
+    font-family:  Roboto,Arial,sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 19px;
+    text-decoration: none;
+}
+#a{
+    color: white;
+}
+
+/*footer coding end*/
